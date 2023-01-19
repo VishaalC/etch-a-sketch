@@ -1,2 +1,2 @@
-# etch-a-sketch
-Recreation of etch-a-sketch toy using CSS Grid, HTML & JS
+# Etch-a-Sketch
+Recreation of Etch-a-Sketch toy using CSS Grid, HTML & JS
