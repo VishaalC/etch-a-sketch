@@ -2,17 +2,29 @@
     --size: 16;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+}
+
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
+    text-align: center;
+    padding: 1.5%;
+    margin-bottom: 50px;
+    border: solid black 5px;
+    color: #00132C;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rowdies', cursive;
     padding-right: 35px;
+    background-color: beige;
+    font-size: large;
 }
 
 .container {
@@ -27,6 +39,7 @@
     border-radius: 0.5em;
     grid-template-columns: repeat(var(--size), 1fr);
     grid-template-rows: repeat(var(--size), 1fr);
+    box-shadow: 10px 10px;
 }
 
 .square {
@@ -53,7 +66,7 @@
 }
 
 .button-51 {
-  background-color: transparent;
+  background-color: white;
   border: 1px solid #266DB6;
   box-sizing: border-box;
   color: #00132C;
@@ -99,4 +112,27 @@
   .button-51 {
     padding: 16px 32px;
   }
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    border:solid black;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rowdies', cursive;
+    background-color: beige;
+    margin-top: 35px;
+}
+
+.fa-github {
+    color: var(--primary-light);
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
 }

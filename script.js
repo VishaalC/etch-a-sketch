@@ -5,7 +5,7 @@ var root = document.querySelector(':root');
 root.style.setProperty('--size', size);
 
 function generateRandomColor(){
-    let maxVal = 0xFFFFFF; // 16777215
+    let maxVal = 0xFFFFFF;
     let randomNumber = Math.random() * maxVal; 
     randomNumber = Math.floor(randomNumber);
     randomNumber = randomNumber.toString(16);
@@ -31,7 +31,6 @@ function black() {
             console.log("hovering");
             square.classList.add("color");
         })
-    
     }
 }
 
